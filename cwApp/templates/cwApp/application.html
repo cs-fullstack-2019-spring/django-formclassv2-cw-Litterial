@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Employment Application</h1>
+<form     method="post">  {# action isn't needed since I'm doing this in one function #}
+    {%csrf_token%}
+    {{jobForm}}
+<button>Submit</button>
+</form>
+
+</body>
+</html>
